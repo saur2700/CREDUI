@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A08AF6B2B89A50100CECBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A08AF6A2B89A50100CECBAF /* AppDelegate.swift */; };
+		8A08AF6D2B89A50100CECBAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A08AF6C2B89A50100CECBAF /* SceneDelegate.swift */; };
+		8A08AF6F2B89A50100CECBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A08AF6E2B89A50100CECBAF /* ViewController.swift */; };
+		8A08AF722B89A50100CECBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A08AF702B89A50100CECBAF /* Main.storyboard */; };
+		8A08AF742B89A50200CECBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A08AF732B89A50200CECBAF /* Assets.xcassets */; };
+		8A08AF772B89A50200CECBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A08AF752B89A50200CECBAF /* LaunchScreen.storyboard */; };
+		8A08AF802B89A53F00CECBAF /* StepFormView in Frameworks */ = {isa = PBXBuildFile; productRef = 8A08AF7F2B89A53F00CECBAF /* StepFormView */; };
+		8AC2C63F2B89A6910094D679 /* CredColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C63E2B89A6910094D679 /* CredColors.swift */; };
+		8AC2C6422B89A7CC0094D679 /* BankAccountExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C6412B89A7CC0094D679 /* BankAccountExpandedView.swift */; };
+		8AC2C6442B89A7E70094D679 /* EMIExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C6432B89A7E70094D679 /* EMIExpandedView.swift */; };
+		8AC2C6462B89A7FB0094D679 /* CreditAmountExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C6452B89A7FB0094D679 /* CreditAmountExpandedView.swift */; };
+		8AC2C6492B89A8AA0094D679 /* GenericCollapsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C6482B89A8AA0094D679 /* GenericCollapsedView.swift */; };
+		8AC2C64B2B89A8CC0094D679 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C64A2B89A8CC0094D679 /* TitleView.swift */; };
+		8AC2C64D2B89A8E80094D679 /* EMICollapsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C64C2B89A8E80094D679 /* EMICollapsedView.swift */; };
+		8AC2C64F2B89AACA0094D679 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2C64E2B89AACA0094D679 /* NSAttributedString+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A08AF672B89A50100CECBAF /* CREDUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CREDUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A08AF6A2B89A50100CECBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A08AF6C2B89A50100CECBAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A08AF6E2B89A50100CECBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A08AF712B89A50100CECBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A08AF732B89A50200CECBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A08AF762B89A50200CECBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A08AF782B89A50200CECBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC2C63E2B89A6910094D679 /* CredColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredColors.swift; sourceTree = "<group>"; };
+		8AC2C6412B89A7CC0094D679 /* BankAccountExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountExpandedView.swift; sourceTree = "<group>"; };
+		8AC2C6432B89A7E70094D679 /* EMIExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMIExpandedView.swift; sourceTree = "<group>"; };
+		8AC2C6452B89A7FB0094D679 /* CreditAmountExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAmountExpandedView.swift; sourceTree = "<group>"; };
+		8AC2C6482B89A8AA0094D679 /* GenericCollapsedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollapsedView.swift; sourceTree = "<group>"; };
+		8AC2C64A2B89A8CC0094D679 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		8AC2C64C2B89A8E80094D679 /* EMICollapsedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMICollapsedView.swift; sourceTree = "<group>"; };
+		8AC2C64E2B89AACA0094D679 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A08AF642B89A50100CECBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A08AF802B89A53F00CECBAF /* StepFormView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A08AF5E2B89A50100CECBAF = {
+			isa = PBXGroup;
+			children = (
+				8A08AF692B89A50100CECBAF /* CREDUI */,
+				8A08AF682B89A50100CECBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A08AF682B89A50100CECBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A08AF672B89A50100CECBAF /* CREDUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A08AF692B89A50100CECBAF /* CREDUI */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2C6472B89A86D0094D679 /* Collapsed Views */,
+				8AC2C6402B89A78A0094D679 /* Expanded Views */,
+				8AC2C63D2B89A5DC0094D679 /* Utility */,
+				8A08AF6A2B89A50100CECBAF /* AppDelegate.swift */,
+				8A08AF6C2B89A50100CECBAF /* SceneDelegate.swift */,
+				8A08AF6E2B89A50100CECBAF /* ViewController.swift */,
+				8A08AF702B89A50100CECBAF /* Main.storyboard */,
+				8A08AF732B89A50200CECBAF /* Assets.xcassets */,
+				8A08AF752B89A50200CECBAF /* LaunchScreen.storyboard */,
+				8A08AF782B89A50200CECBAF /* Info.plist */,
+			);
+			path = CREDUI;
+			sourceTree = "<group>";
+		};
+		8AC2C63D2B89A5DC0094D679 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2C63E2B89A6910094D679 /* CredColors.swift */,
+				8AC2C64E2B89AACA0094D679 /* NSAttributedString+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8AC2C6402B89A78A0094D679 /* Expanded Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2C6412B89A7CC0094D679 /* BankAccountExpandedView.swift */,
+				8AC2C6432B89A7E70094D679 /* EMIExpandedView.swift */,
+				8AC2C6452B89A7FB0094D679 /* CreditAmountExpandedView.swift */,
+			);
+			path = "Expanded Views";
+			sourceTree = "<group>";
+		};
+		8AC2C6472B89A86D0094D679 /* Collapsed Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2C6482B89A8AA0094D679 /* GenericCollapsedView.swift */,
+				8AC2C64A2B89A8CC0094D679 /* TitleView.swift */,
+				8AC2C64C2B89A8E80094D679 /* EMICollapsedView.swift */,
+			);
+			path = "Collapsed Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A08AF662B89A50100CECBAF /* CREDUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A08AF7B2B89A50200CECBAF /* Build configuration list for PBXNativeTarget "CREDUI" */;
+			buildPhases = (
+				8A08AF632B89A50100CECBAF /* Sources */,
+				8A08AF642B89A50100CECBAF /* Frameworks */,
+				8A08AF652B89A50100CECBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CREDUI;
+			packageProductDependencies = (
+				8A08AF7F2B89A53F00CECBAF /* StepFormView */,
+			);
+			productName = CREDUI;
+			productReference = 8A08AF672B89A50100CECBAF /* CREDUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A08AF5F2B89A50100CECBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					8A08AF662B89A50100CECBAF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A08AF622B89A50100CECBAF /* Build configuration list for PBXProject "CREDUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A08AF5E2B89A50100CECBAF;
+			packageReferences = (
+				8A08AF7E2B89A53F00CECBAF /* XCLocalSwiftPackageReference "../StepFormView" */,
+			);
+			productRefGroup = 8A08AF682B89A50100CECBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A08AF662B89A50100CECBAF /* CREDUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A08AF652B89A50100CECBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A08AF772B89A50200CECBAF /* LaunchScreen.storyboard in Resources */,
+				8A08AF742B89A50200CECBAF /* Assets.xcassets in Resources */,
+				8A08AF722B89A50100CECBAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A08AF632B89A50100CECBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC2C64D2B89A8E80094D679 /* EMICollapsedView.swift in Sources */,
+				8A08AF6F2B89A50100CECBAF /* ViewController.swift in Sources */,
+				8AC2C64F2B89AACA0094D679 /* NSAttributedString+Extension.swift in Sources */,
+				8A08AF6B2B89A50100CECBAF /* AppDelegate.swift in Sources */,
+				8AC2C6422B89A7CC0094D679 /* BankAccountExpandedView.swift in Sources */,
+				8A08AF6D2B89A50100CECBAF /* SceneDelegate.swift in Sources */,
+				8AC2C6492B89A8AA0094D679 /* GenericCollapsedView.swift in Sources */,
+				8AC2C64B2B89A8CC0094D679 /* TitleView.swift in Sources */,
+				8AC2C63F2B89A6910094D679 /* CredColors.swift in Sources */,
+				8AC2C6462B89A7FB0094D679 /* CreditAmountExpandedView.swift in Sources */,
+				8AC2C6442B89A7E70094D679 /* EMIExpandedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A08AF702B89A50100CECBAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A08AF712B89A50100CECBAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A08AF752B89A50200CECBAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A08AF762B89A50200CECBAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A08AF792B89A50200CECBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A08AF7A2B89A50200CECBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A08AF7C2B89A50200CECBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CREDUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Saurav-Kumar.CREDUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A08AF7D2B89A50200CECBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CREDUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Saurav-Kumar.CREDUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A08AF622B89A50100CECBAF /* Build configuration list for PBXProject "CREDUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A08AF792B89A50200CECBAF /* Debug */,
+				8A08AF7A2B89A50200CECBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A08AF7B2B89A50200CECBAF /* Build configuration list for PBXNativeTarget "CREDUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A08AF7C2B89A50200CECBAF /* Debug */,
+				8A08AF7D2B89A50200CECBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8A08AF7E2B89A53F00CECBAF /* XCLocalSwiftPackageReference "../StepFormView" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../StepFormView;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A08AF7F2B89A53F00CECBAF /* StepFormView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StepFormView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A08AF5F2B89A50100CECBAF /* Project object */;
+}
